@@ -1,0 +1,17 @@
+
+:root{
+    --primary-bg-color: #f0f0f0; /* light mode background color */
+    --text-color: #333; /* light mode text color */
+}
+
+body.dark-mode{
+    --primary-bg-color: #333; /* dark mode background color */
+    --text-color: #f0f0f0; /* dark mode background color */
+}
+
+
+body{
+    /* set background and text color to either light mode or dark mode */
+    background-color: var(--primary-bg-color); 
+    color: var(--text-color);
+}
